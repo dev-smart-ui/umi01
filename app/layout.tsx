@@ -13,7 +13,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
     return (
         <html lang="en">
         <body className={`min-h-full antialiased`}>
-        <div className={'h-screen grid grid-rows-[100px_1fr_30px]'}>
+        <div className={'h-screen grid grid-rows-[56px_1fr_30px] md:grid-rows-[100px_1fr_30px]'}>
             <Header/>
             <main className={'w-full mx-auto md:px-7.5'}>
                 {children}
